@@ -6,9 +6,9 @@
 # parametre: cena_bez_dph, sadzba
 # vystup: vypocet/cena_s_dph
 
-def cena_s_dph(cena_bez_dph, sadzba):
+def cena_s_dph(cena_bez_dph, sadzba):   # vstupne paramatre funcie
     vypocet_dph = sadzba * cena_bez_dph / 100
     suma_s_dph = vypocet_dph + cena_bez_dph
-    print(suma_s_dph)
+    print(suma_s_dph)   # vystup cize vysledok
 
 cena_s_dph(200, 23)
