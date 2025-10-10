@@ -11,4 +11,4 @@ def cena_s_dph(cena_bez_dph, sadzba):   # vstupne paramatre funcie
     suma_s_dph = vypocet_dph + cena_bez_dph
     print(suma_s_dph)   # vystup cize vysledok
 
-cena_s_dph(200, 23)
+cena_s_dph(5, 23)
